@@ -1,0 +1,36 @@
+node_modules/
+
+# Frontend build output
+build/
+dist/
+coverage/
+
+# Electron and packaging artifacts
+*.asar
+*.dmg
+*.exe
+*.AppImage
+*.deb
+*.rpm
+
+# macOS native build output
+macos-native/.build/
+macos-native/dist/
+DerivedData/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
